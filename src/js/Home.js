@@ -26,10 +26,12 @@ export default class App extends Component {
 				</div> 
 
 	
-                {/* <div className="front_text">
-                     <p className="name">ABIGAIL,</p>
-                    <p className="job">WEB DEV</p> 
-                </div> */}
+                 <div className="front_text">
+                     <p className="name">a</p>
+
+				<div className="rightSide"></div>
+				<div className="rightSideTop"></div>
+                </div> 
 			</div>
 		)
 	}

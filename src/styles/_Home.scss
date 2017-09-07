@@ -10,6 +10,7 @@
     background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
     width: 100%;
     height: 100vh;
+    position: absolute;
 
 
 //----MENU----//
@@ -54,31 +55,43 @@
         width: 100%;
         height: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
+
 
         .name{
             position: relative;
+            right: 50%;
             font-size: 150px;
             color: #777777;
             font-family: 'Open Sans Condensed', sans-serif;
             text-shadow: 0 0.25em 0.75em rgba(0, 0, 0, 0.25);
-            transform: translate3d(0px, 0px, 0px);
             letter-spacing: 2px;
         }
 
-        .job{
-            position: relative;
-            font-size: 150px;
-            color: white;
-            text-shadow: 0 0.25em 0.75em rgba(0, 0, 0, 0.25);
-            font-family: oswald;  
+
+        .rightSide{
+            width: 40%;
+            height: 50%;
+            background: black;
+            position: absolute;
+            z-index: 1234;
+            align-self: flex-end;
+        }
+
+        .rightSideTop{
+            width: 40%;
+            height: 50%;
+            background: red;
+            position: absolute;
+            z-index: 1234;
+            align-self: flex-start;;
+
         }
     }
 
-
-
+//-----RIGHT SIDE------//
 
 }
