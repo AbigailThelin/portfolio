@@ -26,12 +26,12 @@
     }
 
     .menu{
-        height: 100px;
+        height: 100vh;
+        z-index: 45;
         position: absolute;
-        width: 100%;
+        width: 40%;
         background: #777;
         margin: 0px;
-        display: none;
 
         ul{
             display: flex;
@@ -84,11 +84,13 @@
         .rightSideTop{
             width: 40%;
             height: 50%;
-            background: red;
             position: absolute;
             z-index: 1234;
             align-self: flex-start;;
 
+        .mee{
+            z-index: 999;
+        }
         }
     }
 
